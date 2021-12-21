@@ -1,4 +1,7 @@
-# Fcanas Tap
+# fcanas Homebrew Tap
+
+* [dit](https://github.com/fcanas/dit)
+* [mirror-displays](https://github.com/fcanas/mirror-displays)
 
 ## How do I install these formulae?
 
