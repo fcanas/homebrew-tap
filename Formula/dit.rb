@@ -1,5 +1,3 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
 class Dit < Formula
   desc "Basic CLI for Reminders on macOS"
   homepage "https://github.com/fcanas/dit"
@@ -11,9 +9,8 @@ class Dit < Formula
   depends_on :xcode
 
   def install
-    system "swift build --disable-sandbox --configuration release -Xswiftc -suppress-warnings"
-    system "install -d #{bin}"
-    system "install .build/release/dit #{bin}"
+    system "swift", "build", "--disable-sandbox", "--configuration", "release", "-Xswiftc", "-suppress-warnings"
+    bin.install ".build/release/dit"
   end
 
   test do
