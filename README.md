@@ -2,6 +2,7 @@
 
 * [dit](https://github.com/fcanas/dit)
 * [mirror-displays](https://github.com/fcanas/mirror-displays)
+* [sidle](https://github.com/fcanas/sidle)
 
 ## How do I install these formulae?
 
