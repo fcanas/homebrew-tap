@@ -6,6 +6,7 @@ class Dit < Formula
   sha256 "39477f86c77d7c47199828f9a622c740f261f1540ce0a0b9744ee454b07d6aa9"
   license "Apache-2.0"
 
+  depends_on :macos
   depends_on :xcode
 
   def install

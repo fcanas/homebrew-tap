@@ -6,6 +6,7 @@ class Sidle < Formula
   sha256 "10d07e5dc39c0a5812eb8f30a7617235b2fe1365f83584aad43910817b0014d6"
   license "MIT"
 
+  depends_on :macos
   depends_on :xcode
 
   def install
