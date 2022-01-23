@@ -1,15 +1,19 @@
 class Sidle < Formula
   desc "Wordle CLI Assistant"
   homepage "https://github.com/fcanas/sidle"
-  url "https://github.com/fcanas/sidle/archive/refs/tags/0.1.tar.gz"
-  version "0.1"
-  sha256 "0d159bbf024769b7e49e875bd89109c1ba06d7e132941d66aee0d363510397f7"
+  url "https://github.com/fcanas/sidle/archive/refs/tags/0.2.tar.gz"
+  sha256 "10d07e5dc39c0a5812eb8f30a7617235b2fe1365f83584aad43910817b0014d6"
   license "MIT"
 
+  depends_on :macos
   depends_on :xcode
 
   def install
     system "swift", "build", "--disable-sandbox", "--configuration", "release", "-Xswiftc", "-suppress-warnings"
     bin.install ".build/release/sidle"
+  end
+
+  test do
+    system "#{bin}/dit", "--help"
   end
 end
