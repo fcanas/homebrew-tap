@@ -13,7 +13,7 @@ class Sidle < Formula
     system "swift", "build", "--disable-sandbox", "--configuration", "release", "-Xswiftc", "-suppress-warnings"
     bin.install ".build/release/sidle"
   end
-  
+
   test do
     system "#{bin}/dit", "--help"
   end
