@@ -14,6 +14,6 @@ class Sidle < Formula
   end
 
   test do
-    system "#{bin}/dit", "--help"
+    system "#{bin}/sidle", "--help"
   end
 end
