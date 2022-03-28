@@ -17,4 +17,3 @@ class Docket < Formula
     system "#{bin}/docket", "--help"
   end
 end
-  
