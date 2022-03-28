@@ -1,6 +1,7 @@
 # fcanas Homebrew Tap
 
 * [dit](https://github.com/fcanas/dit)
+* [docket](https://github.com/fcanas/docket)
 * [mirror-displays](https://github.com/fcanas/mirror-displays)
 * [scrape](https://github.com/fcanas/scrape)
 * [sidle](https://github.com/fcanas/sidle)
