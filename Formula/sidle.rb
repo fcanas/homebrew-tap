@@ -1,8 +1,8 @@
 class Sidle < Formula
   desc "Wordle CLI Assistant"
   homepage "https://github.com/fcanas/sidle"
-  url "https://github.com/fcanas/sidle/archive/refs/tags/0.2.tar.gz"
-  sha256 "10d07e5dc39c0a5812eb8f30a7617235b2fe1365f83584aad43910817b0014d6"
+  url "https://github.com/fcanas/sidle/archive/refs/tags/0.3.tar.gz"
+  sha256 "0d2f8f3b188c8d77c0bf068b813215cbfb4126819cb9a68c55c53bc51ba925a0"
   license "MIT"
 
   depends_on :macos
